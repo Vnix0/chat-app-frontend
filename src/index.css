@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Style the scrollbar track */
+::-webkit-scrollbar-track {
+  background-color: #f5f5f5;
+}
+
+/* Style the scrollbar thumb */
+::-webkit-scrollbar-thumb {
+  background-color: #21c1d6;
+  border-radius: 50%;
+}
+
+/* Hide the scrollbar when not hovering over it */
+::-webkit-scrollbar {
+  width: 2px;
+  height: 10px;
+}
+
+/* Show the scrollbar when hovering over it */
+::-webkit-scrollbar:hover {
+  display: block;
+}
